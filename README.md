@@ -21,15 +21,15 @@ lehet mezőket felfedni.
 
 | Fájl | Szerepe |
 |---|---|
-| `Jatek.java` | a játék logikája |
+| `Aknakereso.java` | a játék logikája |
 | `AknakeresoException.java` | saját kivétel |
-| `Jmain.java` | futtatható példa, beolvasás Scannerrel |
+| `AknakeresoMain.java` | futtatható példa, beolvasás Scannerrel |
 
 ## Futtatás
 
 ```
-javac ZH/*.java
-java ZH.Jmain
+javac *.java
+java AknakeresoMain
 ```
 
 A tippet `sor oszlop` formában kell megadni, például `1 2`.
